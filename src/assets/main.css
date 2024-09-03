@@ -1,0 +1,67 @@
+@import './base.css';
+
+#app {
+  width: 100vw;
+  height: fit-content;
+  padding: 6rem 1.5rem 1.5rem;
+}
+
+body {
+  background-color: #D3F4FF;
+  font-family: "Lucida Grande" , "sans-serif";
+  overflow-x: hidden;
+  position: absolute;
+  width: 100vw;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media screen and (max-width: 725px) {
+  .small {
+    flex-direction: column;
+  }
+  .years {
+    padding-right: 0 !important;
+  }
+}
+
+.cp-header {
+  font-size: 20px;
+}
+
+.cp-info-container {
+  border: 3px solid white;
+  background-color: #3BD3E8;
+  border-radius: 90px 90px 90px 90px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  min-width: 100%;
+  height: fit-content;
+  padding: 3rem 4rem 3rem 4rem;
+}
+
+.cp-content {
+  font-size: 18px;
+}
+
+.job-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.years {
+  font-size: 14px;
+}
+
+#current-position-header {
+  font-size: 50px;
+}
+
+.current-position {
+  max-width: 75rem;
+}
