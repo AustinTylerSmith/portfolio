@@ -7,6 +7,7 @@ let clicked = ref(false)
 let javascriptStrength = ref(0)
 let typescriptStrength = ref(0)
 let vueStrength = ref(0)
+let responsivenessStrength = ref(0)
 let htmlStrength = ref(0)
 let cssStrength = ref(0)
 let junitStrength = ref(0)
@@ -30,75 +31,79 @@ function fireStrength() {
 
   setTimeout(() => {
     javascriptStrength.value = 99;
-  }, 500); // 1000ms delay for JavaScript strength
+  }, 500)
 
   setTimeout(() => {
     vueStrength.value = 99;
-  }, 1000);
+  }, 1000)
 
   setTimeout(() => {
-    htmlStrength.value = 99
+    responsivenessStrength.value = 99;
   }, 1500)
 
   setTimeout(() => {
-    cssStrength.value = 99
+    htmlStrength.value = 99
   }, 2000)
 
   setTimeout(() => {
-    junitStrength.value = 99
+    cssStrength.value = 99
   }, 2500)
 
   setTimeout(() => {
-    vitestStrength.value = 99
+    junitStrength.value = 99
   }, 3000)
 
   setTimeout(() => {
-    playwrightStrength.value = 99
+    vitestStrength.value = 99
   }, 3500)
 
   setTimeout(() => {
-    cypressStrength.value = 99
+    playwrightStrength.value = 99
   }, 4000)
 
   setTimeout(() => {
-    javaStrength.value = 99
+    cypressStrength.value = 99
   }, 4500)
 
   setTimeout(() => {
-    springStrength.value = 99
+    javaStrength.value = 99
   }, 5000)
 
   setTimeout(() => {
-    jestStrength.value = 99
+    springStrength.value = 99
   }, 5500)
 
   setTimeout(() => {
-    figmaStrength.value = 90
+    jestStrength.value = 99
   }, 6000)
 
   setTimeout(() => {
-    sqlStrength.value = 90
+    figmaStrength.value = 90
   }, 6500)
 
   setTimeout(() => {
-    thymeleafStrength.value = 90
+    sqlStrength.value = 90
   }, 7000)
 
   setTimeout(() => {
-    h2Strength.value = 90
+    thymeleafStrength.value = 90
   }, 7500)
 
   setTimeout(() => {
-    dockerStrength.value = 75
+    h2Strength.value = 90
   }, 8000)
 
   setTimeout(() => {
-    podmanStrength.value = 75
+    dockerStrength.value = 75
   }, 8500)
 
   setTimeout(() => {
-    reactStrength.value = 75
+    podmanStrength.value = 75
   }, 9000)
+
+  setTimeout(() => {
+    reactStrength.value = 75
+  }, 9500)
 
 }
 </script>
@@ -122,6 +127,10 @@ function fireStrength() {
         <div class="flex align-items-center justify-content-end">
           <span class="skill-type">Vue.js</span>
           <ProgressBar class="progress-width" :value="vueStrength"/>
+        </div>
+        <div class="flex align-items-center justify-content-end">
+          <span class="skill-type">Responsive Design</span>
+          <ProgressBar class="progress-width" :value="responsivenessStrength"/>
         </div>
         <div class="flex align-items-center justify-content-end">
           <span class="skill-type">HTML</span>
@@ -223,7 +232,7 @@ function fireStrength() {
   padding: 2rem 0 2rem 2rem;
   overflow: hidden;
   width: 80%;
-  max-width: 30rem;
+  max-width: 36rem;
 }
 
 .strength {

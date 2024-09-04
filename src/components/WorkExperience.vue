@@ -10,36 +10,37 @@ import ExperienceCard from "@/components/ExperienceCard.vue";
       <ExperienceCard
           :project-title="'My Billing'"
           :description="
-    'Billing Management System used by employees and insureds.'"
+    'I worked on a Billing Management System used by both employees and insureds, streamlining billing processes for enhanced efficiency and user satisfaction.'"
           :skills="['Java', ' Spring Boot', ' Junit', ' Typescript', ' Vue3', ' Vitest', ' Playwright']"
           :project-time="5"
       />
       <ExperienceCard
           :project-title="'Policy Sweet'"
           :description="
-    'Insurance quoter “Policy Sweet”. Integrated critical company services with the highest quality user experience.'"
+    'My Team and I developed the external-facing Policy Sweet Quoter Application, integrating essential company services while prioritizing a top-tier user experience.'"
           :skills="['Java', ' Spring Boot', ' Junit', ' Typescript', ' Vue3', ' Vitest', ' Playwright']"
           :project-time="5"
       />
       <ExperienceCard
           :project-title="'Collateral Management'"
           :description="
-    'Application used to track Collateral for insureds.'"
+    'I enhanced a Collateral Management Application at an insurance company, focusing on optimizing the front-end to ' +
+     'streamline asset tracking and improve compliance and risk management.'"
           :skills="['Java', ' Spring Boot', ' Typescript', ' Vue2', ' Jest', ' Cypress']"
           :project-time="5"
       />
       <ExperienceCard
           :project-title="'Unqork Proof of Concept'"
           :description="
-    'Proof of Concept to test usability of Low Code No Code platform.'"
+    'I explored the Unqork No Code/Low Code platform to evaluate its potential integration with our company\'s core ' +
+     'practices, focusing on its adaptability and effectiveness for rapid development.'"
           :skills="['Unqork', ' Angular', ' CSS', ' HTML']"
           :project-time="4"
       />
       <ExperienceCard
           :project-title="'Risk Analysis Tool'"
           :description="
-    'Application leveraged by 1K+ underwriters who write policies. The RA Tool gives pivotal insight to the underwriter ' +
-     'when making decisions on an insureds policy.'"
+    'I worked on a Risk Analyses Tool used by over 1,000 underwriters to gain crucial insights for informed policy decisions.'"
           :skills="['Unqork', ' Angular', ' CSS', ' HTML']"
           :project-time="5"
       />
