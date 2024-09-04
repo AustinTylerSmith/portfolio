@@ -38,7 +38,7 @@ function clickedResume() {
     <a href="https://www.linkedin.com/in/austin-tyler-smith/" target="_blank"><img :class="linkedinClass" @click="clickedLinkedin" src="../assets/linkedin.png" alt="Linkedin"></a>
     <a href="https://github.com/AustinTylerSmith" target="_blank"><img :class="githubClass" @click="clickedGithub" src="@/assets/githubIcon.png" alt="GitHub"></a>
     <img :class="emailClass + ' email-hover'" @click="clickedEmail" src="@/assets/email.png" alt="Email">
-    <a href="./../../src/assets/SMITH_AUSTIN_RESUME.docx.pdf" target="_blank"><img :class="resumeClass" @click="clickedResume" src="@/assets/resumeIcon.png" alt="Resume"></a>
+    <a href="https://docs.google.com/document/d/1rY6nuXVYUUuC2an-lw8XRoY0YtTT54lN/edit?usp=sharing&ouid=101183079070705057726&rtpof=true&sd=true" target="_blank"><img :class="resumeClass" @click="clickedResume" src="@/assets/resumeIcon.png" alt="Resume"></a>
   </div>
 </template>
 
