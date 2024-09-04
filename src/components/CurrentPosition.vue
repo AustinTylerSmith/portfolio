@@ -5,13 +5,13 @@ import Education from "@/components/Education.vue";
 <template>
   <div class="current-position flex flex-column align-items-center mt-2">
     <header id="current-position-header">Current Position</header>
-    <div class="cp-info-container mt-3 flex-column align-items-center justify-content-center">
+    <div class="cp-info-container mt-3 flex-column align-items-center justify-content-center mb-6">
       <div class="flex justify-content-center flex-1 mt-2 mb-2">
         <span class="job-title">Agile Developer at a Leading Publicly Traded Company</span>
       </div>
       <div class="flex small justify-content-between align-items-center">
         <span class="cp-header">Great American Insurance Group</span>
-        <span class="flex-1 flex justify-content-end pr-2 years mt-1">August of 2022 - Present</span></div>
+        <span class="flex-1 flex justify-content-end pr-4 years mt-1">August of 2022 - Present</span></div>
       <p class="mt-2 cp-content">
         With hands-on experience in an agile environment at a publicly traded company generating $7 billion in annual
         revenue, I’ve honed my expertise in delivering high-quality software solutions. My commitment to rigorous

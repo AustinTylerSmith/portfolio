@@ -1,67 +1,152 @@
 @import './base.css';
 
-#app {
-  width: 100vw;
-  height: fit-content;
-  padding: 6rem 1.5rem 1.5rem;
+:root {
+    color-scheme: only light;
 }
 
 body {
-  background-color: #D3F4FF;
-  font-family: "Lucida Grande" , "sans-serif";
-  overflow-x: hidden;
-  position: absolute;
-  width: 100vw;
+    color-scheme: only light;
+}
+
+#app {
+    width: 100vw;
+    height: fit-content;
+    padding: 6rem 1.5rem 1.5rem;
+}
+
+body {
+    background-color: #D3F4FF;
+    font-family: "Lucida Grande", "sans-serif";
+    overflow-x: hidden;
+    position: absolute;
+    width: 100vw;
 }
 
 a,
 .green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+    padding: 3px;
+}
+
+.footer {
+    border-top: 3px solid white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 80%;
 }
 
 @media screen and (max-width: 725px) {
-  .small {
-    flex-direction: column;
-  }
-  .years {
-    padding-right: 0 !important;
-  }
+    .small {
+        flex-direction: column;
+    }
+
+    .years {
+        padding-right: 0 !important;
+    }
 }
 
 .cp-header {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .cp-info-container {
-  border: 3px solid white;
-  background-color: #3BD3E8;
-  border-radius: 90px 90px 90px 90px;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
-  min-width: 100%;
-  height: fit-content;
-  padding: 3rem 4rem 3rem 4rem;
+    border: 3px solid white;
+    background-color: #3BD3E8;
+    border-radius: 90px 90px 90px 90px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    min-width: 100%;
+    height: fit-content;
+    padding: 3rem 2rem 3rem 2rem;
 }
 
 .cp-content {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .job-title {
-  font-size: 22px;
-  font-weight: bold;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .years {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 #current-position-header {
-  font-size: 50px;
+    font-size: 250%;
 }
 
 .current-position {
-  max-width: 75rem;
+    max-width: 75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #2c3e50;
+    }
+
+    .header-container {
+        background-color: #2c3e50 !important;
+    }
+
+    .cp-info-container {
+        background-color: #0BBED6 !important;
+    }
+
+    .bg-color {
+        background-color: #D24747 !important;
+    }
+
+    .name {
+        color: white;
+    }
+
+    .hello-world {
+        color: white;
+    }
+
+    #work-experience-header {
+        color: white;
+    }
+
+    #current-position-header {
+        color: white;
+    }
+
+    .job-title {
+        color: white;
+    }
+
+    .cp-header {
+        color: white;
+    }
+
+    .cp-content {
+        color: white;
+    }
+
+    .years {
+        color: white;
+    }
+
+    .skills-header {
+        color: white;
+    }
+
+    .strength {
+        color: white;
+    }
+
+    .skill-type {
+        color: white;
+    }
+
+    .progress-width {
+        color: white;
+    }
 }

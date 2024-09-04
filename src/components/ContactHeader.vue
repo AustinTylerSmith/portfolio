@@ -37,8 +37,8 @@ function clickedResume() {
   <div class="flex justify-content-evenly align-items-center header-container">
     <a href="https://www.linkedin.com/in/austin-tyler-smith/" target="_blank"><img :class="linkedinClass" @click="clickedLinkedin" src="../assets/linkedin.png" alt="Linkedin"></a>
     <a href="https://github.com/AustinTylerSmith" target="_blank"><img :class="githubClass" @click="clickedGithub" src="@/assets/githubIcon.png" alt="GitHub"></a>
-    <img :class="emailClass + ' email-hover'" @click="clickedEmail" src="@/assets/email.png" alt="Email">
-    <a href="https://docs.google.com/document/d/1rY6nuXVYUUuC2an-lw8XRoY0YtTT54lN/edit?usp=sharing&ouid=101183079070705057726&rtpof=true&sd=true" target="_blank"><img :class="resumeClass" @click="clickedResume" src="@/assets/resumeIcon.png" alt="Resume"></a>
+    <img :class="emailClass + ' email-hover'" @click="clickedEmail" src="@/assets/email2.png" alt="Email">
+    <a href="https://smith-austin-resume.tiiny.site" target="_blank"><img :class="resumeClass" @click="clickedResume" src="@/assets/resumeIcon.png" alt="Resume"></a>
   </div>
 </template>
 
@@ -59,6 +59,7 @@ function clickedResume() {
 .header-container {
   background-color: #D3F4FF;
   border-bottom: 3px solid white;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
   height: 5rem;
   position: fixed;
   top: 0;

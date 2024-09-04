@@ -220,7 +220,7 @@ function fireStrength() {
 }
 
 .skills-header {
-  font-size: 50px;
+  font-size: 250%;
 }
 
 .skills-container {

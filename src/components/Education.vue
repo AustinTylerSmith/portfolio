@@ -24,6 +24,6 @@
 
 <style scoped>
 .bg-color {
-  background-color: #F36969 !important;
+  background-color: #F36969;
 }
 </style>

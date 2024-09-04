@@ -50,7 +50,7 @@ import ExperienceCard from "@/components/ExperienceCard.vue";
 
 <style scoped>
 #work-experience-header {
-  font-size: 50px;
+  font-size: 250%;
 }
 
 .work-experience {

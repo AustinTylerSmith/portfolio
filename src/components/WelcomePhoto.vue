@@ -4,7 +4,7 @@
 
 <template>
     <img class="mb-2" id="main-photo" src="@/assets/MAIN_PIC.JPG" alt="profile_pic">
-    <div class="flex flex-column align-items-center justify-content-center hello-message ml-3">
+    <div class="flex flex-column align-items-center justify-content-center hello-message mb-2">
       <span class="hello-world">Hello World... I am</span>
       <span class="name mb-2">Austin Smith</span>
     </div>
@@ -19,6 +19,7 @@
 
 .hello-world {
   font-size: 200%;
+  color-scheme: only light !important;
 }
 
 
